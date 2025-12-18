@@ -27,6 +27,8 @@
 
 ![Hero animation](assets/hero-demo.gif)
 
+> ✅ Ho aggiunto una GIF animata dell'intestazione e demo GIF per i progetti: queste animazioni sono visibili direttamente su GitHub.
+
 [![HTML5](https://img.shields.io/badge/HTML-Expert-orange?style=for-the-badge&logo=html5)]
 [![CSS3](https://img.shields.io/badge/CSS-Advanced-blue?style=for-the-badge&logo=css3)]
 [![JavaScript](https://img.shields.io/badge/JavaScript-Expert-yellow?style=for-the-badge&logo=javascript)]
