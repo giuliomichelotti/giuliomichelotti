@@ -22,7 +22,23 @@ body{
 .lead{color:var(--muted);max-width:55ch}
 .btn{display:inline-block;margin-top:16px;padding:10px 16px;background:linear-gradient(90deg,var(--accent1),var(--accent2));color:#031022;border-radius:10px;text-decoration:none;font-weight:700}
 .hero-visual{width:240px}
-.device{width:100%;height:auto;filter:drop-shadow(0 10px 30px rgba(46,196,182,0.08))}
+.device{width:100%;height:auto;filter:drop-shadow(0 10px 30px rgba(46,196,182,0.08));animation:floatDevice 6s ease-in-out infinite alternate}
+
+.hero-blob{position:absolute;border-radius:999px;filter:blur(18px);opacity:0.08;pointer-events:none}
+.hero-visual{position:relative}
+.hero-visual .blob-1{width:120px;height:120px;right:-10px;top:-20px;background:linear-gradient(180deg,#7b61ff,#60A5FA);animation:blobMove1 8s linear infinite}
+.hero-visual .blob-2{width:180px;height:180px;right:40px;bottom:-30px;background:linear-gradient(180deg,#60A5FA,#C084FC);animation:blobMove2 10s linear infinite}
+
+@keyframes floatDevice{from{transform:translateY(0)}to{transform:translateY(-8px)}}
+@keyframes blobMove1{0%{transform:translate(0,0)}50%{transform:translate(-24px,14px)}100%{transform:translate(0,0)}}
+@keyframes blobMove2{0%{transform:translate(0,0)}50%{transform:translate(30px,-18px)}100%{transform:translate(0,0)}}
+
+.btn{display:inline-block;margin-top:16px;padding:10px 16px;background:linear-gradient(90deg,var(--accent1),var(--accent2));color:#031022;border-radius:10px;text-decoration:none;font-weight:700;transition:transform .18s ease}
+.btn:hover{transform:translateY(-4px);box-shadow:0 10px 24px rgba(46,196,182,0.08)}
+
+@media (prefers-reduced-motion: reduce){
+  .device, .hero-visual .blob-1, .hero-visual .blob-2{animation:none;transition:none}
+}
 
 .section{padding:56px 0}
 .section h2{margin:0 0 12px;font-size:1.4rem}
