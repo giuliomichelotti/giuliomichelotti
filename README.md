@@ -1,12 +1,26 @@
 # 👋 Ciao, sono Giulio Michelotti
 
 <p align="center">
+  <!-- Intestazione animata (file SVG) -->
+  <img src="./assets/header-animated.svg" alt="Animated header" width="820"/>
+</p>
+
+<p align="center">
   <strong>Full Stack Developer & Mobile App Creator</strong>
 </p>
 
 <p align="center">
   <a href="mailto:giuliuomichelott@outlook.it">📧 Email</a> •
   <a href="https://github.com/giuliomichelotti">🐙 GitHub</a>
+</p>
+
+---
+
+## ✨ Animazioni spettacolari
+Di seguito ho aggiunto una "snake animation" in SVG che si muove lungo un percorso. L'animazione è puramente SVG/CSS (no JS) quindi è sicura per GitHub e dovrebbe riprodursi correttamente.
+
+<p align="center">
+  <img src="./assets/snake.svg" alt="Snake animation" width="700"/>
 </p>
 
 ---
@@ -22,7 +36,7 @@
   <img src="https://img.shields.io/badge/platform-iOS%20%7C%20Android%20%7C%20Web-lightgrey.svg" alt="Platform">
 </p>
 
-**EquiBudget** è un'applicazione mobile cross-platform per la gestione delle finanze personali, sviluppata con React Native ed Expo. L'app offre un'esperienza utente premium con un design moderno in stile glassmorphism e funzionalità avanzate di budgeting.
+**EquiBudget** è un'app mobile cross-platform per la gestione delle finanze personali, sviluppata con React Native ed Expo. L'app offre un'esperienza utente premium con un design moderno in stile glassmorphism e funzionalità avanzate di budgeting.
 
 #### ✨ Caratteristiche Principali
 
@@ -70,3 +84,9 @@ EquiBudget utilizza un **tema premium glassmorphism** con palette colori moderna
 - 🌑 Sfondo scuro elegante (#0A0A0F)
 - ✨ Card con effetto vetro smerigliato
 - 🎯 Animazioni fluide con react-native-reanimated
+
+---
+
+Contatti
+- Email: giuliuomichelott@outlook.it
+- GitHub: https://github.com/giuliomichelotti

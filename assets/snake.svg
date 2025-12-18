@@ -1,0 +1,51 @@
+<!-- Snake animation: head moves along a sinuous path, body follows using stroke-dash techniques -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" width="1000" height="250" role="img" aria-label="Snake animation">
+  <defs>
+    <linearGradient id="snakeGradient" x1="0" x2="1">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="50%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+    <style>
+      .path { fill: none; stroke: url(#snakeGradient); stroke-width: 18; stroke-linecap: round; stroke-linejoin: round; filter: url(#shadow); }
+      .dot { fill: #fff; stroke: #111827; stroke-width: 2; }
+      .head { fill: #fff; stroke: #0f172a; stroke-width: 3; }
+      .eye { fill: #0f172a; }
+      /* animate stroke-dashoffset to create movement along the path */
+      .path {
+        stroke-dasharray: 1600;
+        animation: dash 6s linear infinite;
+      }
+      @keyframes dash {
+        to { stroke-dashoffset: -1600; }
+      }
+    </style>
+  </defs>
+
+  <!-- sinuous path -->
+  <path id="track" d="M50 140 C150 10, 350 10, 450 140 S 750 270, 950 140" class="path" />
+
+  <!-- moving head (follows path using animateMotion) -->
+  <g>
+    <circle r="14" class="head">
+      <animateMotion dur="6s" repeatCount="indefinite" rotate="auto">
+        <mpath xlink:href="#track" />
+      </animateMotion>
+    </circle>
+
+    <!-- eye as small circle offset inside the head using motion path with same dur -->
+    <circle r="3" class="eye" >
+      <animateMotion dur="6s" repeatCount="indefinite" rotate="auto">
+        <mpath xlink:href="#track" />
+      </animateMotion>
+    </circle>
+  </g>
+
+  <!-- subtle shimmer along the body using an overlay path with lower opacity -->
+  <path d="M50 140 C150 10, 350 10, 450 140 S 750 270, 950 140" stroke="white" stroke-width="6" opacity="0.08" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <animate attributeName="opacity" values="0.06;0.14;0.06" dur="4s" repeatCount="indefinite"/>
+  </path>
+</svg>
