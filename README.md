@@ -25,6 +25,8 @@
   </g>
 </svg>
 
+> ⚠️ **Nota:** GitHub non mostra le animazioni SVG nel README per motivi di sicurezza (alcuni tag SVG che animano vengono rimossi dal renderer). Per vedere l'anteprima animata apri `index.html` nel browser (o esegui `npx http-server .` nella root del repository e visita `http://localhost:8080`).
+
 [![HTML5](https://img.shields.io/badge/HTML-Expert-orange?style=for-the-badge&logo=html5)]
 [![CSS3](https://img.shields.io/badge/CSS-Advanced-blue?style=for-the-badge&logo=css3)]
 [![JavaScript](https://img.shields.io/badge/JavaScript-Expert-yellow?style=for-the-badge&logo=javascript)]
