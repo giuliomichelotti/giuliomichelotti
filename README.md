@@ -1,192 +1,194 @@
-# <p align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=680&lines=Ciao,+sono+Giulio+Michelotti;Full+Stack+Developer;Mobile+App+Creator" alt="Typing SVG" /></p>
+````markdown name=README.md
+# Hi — I'm Giulio Michelotti 👋
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0078D4&height=150&section=header&text=Benvenuti!&fontSize=40&animation=fadeIn" width="100%" />
-</p>
-## 💼 Chi sono
-Sono Giulio Michelotti — Full Stack Developer specializzato nello sviluppo di applicazioni web e mobile. Creo prodotti end-to-end: API performanti, architetture resilienti, interfacce accessibili e animazioni studiate per migliorare l'usabilità.
+<svg width="100%" height="120" viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" style="display:block;margin-bottom:18px">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#6EE7B7"/>
+      <stop offset="0.5" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="120" fill="url(#g)"/>
+  <g font-family="Verdana, Geneva, sans-serif" font-weight="700" font-size="36" fill="white">
+    <text x="40" y="70">Giulio Michelotti — Web Developer & Product-focused Designer</text>
+  </g>
+  <!-- subtle moving circles -->
+  <g fill="white" opacity="0.06">
+    <circle cx="1100" cy="30" r="40">
+      <animate attributeName="cx" from="1100" to="1150" dur="6s" repeatCount="indefinite" />
+      <animate attributeName="cy" from="30" to="60" dur="6s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1000" cy="90" r="70">
+      <animate attributeName="cx" from="1000" to="950" dur="8s" repeatCount="indefinite" />
+    </circle>
+  </g>
+</svg>
 
---
+[![HTML5](https://img.shields.io/badge/HTML-Expert-orange?style=for-the-badge&logo=html5)]
+[![CSS3](https://img.shields.io/badge/CSS-Advanced-blue?style=for-the-badge&logo=css3)]
+[![JavaScript](https://img.shields.io/badge/JavaScript-Expert-yellow?style=for-the-badge&logo=javascript)]
+[![Responsive](https://img.shields.io/badge/Responsive-Design-9cf?style=for-the-badge)]
 
-## ✨ Sintesi delle competenze
-- Progettazione e sviluppo Full Stack: architetture REST/GraphQL, autenticazione, testing e deploy.
-- Mobile & Cross‑platform: React Native, Expo, ottimizzazione di performance e background tasks.
-- Frontend Web: React, TypeScript, gestione stato, design system e animazioni CSS/SVG/Reanimated.
-- Backend: Node.js, Express, microservices, WebSockets, integrazione con servizi esterni.
-- Database & Sync: PostgreSQL, MongoDB, SQLite (offline-first), strategie di sincronizzazione e conflitti.
-- DevOps & Qualità: CI/CD, unit/integration testing, monitoraggio e deploy automatizzati.
-
----
-
-## 🧰 Stack tecnico (esempi)
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=react,typescript,expo,nodejs,express,postgres,mongodb,sqlite,githubactions,figma" />
-</p>
-
----
-
-## 🔍 Competenze dettagliate
-- Architetture: progettazione API, autenticazione JWT/OAuth2, caching, rate limiting.
-- Offline & Sync: strategie offline-first, delta sync, gestione conflitti, compressione dati.
-- Performance: profiling, riduzione bundle, ottimizzazioni native su React Native.
-- UX & Animazioni: micro-interazioni, Lottie, SVG, transizioni per migliorare il feedback utente.
-- Testing: Jest, React Testing Library, E2E (detox/cypress), test di integrazione backend.
-- Sicurezza: validazione input, protezione CSRF, gestione segreti e best practice OWASP.
-
----
----
-
-## 🧰 Tecnologie
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=react,expo,nodejs,express,postgres,mongodb,sqlite,tailwind,figma,git,githubactions" />
-</p>
+Welcome to my portfolio repository. I build clean, accessible, and performant web experiences using modern HTML, CSS and JavaScript. I care about design detail, thoughtful UX, and delivering products that solve real problems.
 
 ---
 
+## About me
 
-## 🚀 Progetti in primo piano
+I design and develop front-end applications and web tools with a product mindset. My focus is on turning ideas into polished, usable interfaces that are responsive and maintainable. I like clear code, reusable components (where appropriate), and shipping features that users actually find valuable.
 
-### Equi Budget — gestione finanziaria condivisa
-Breve: app mobile pensata per gruppi/famiglie che devono gestire budget condivisi in modo semplice e trasparente.
-
-- Principali risultati: riduzione del tempo medio di riconciliazione spese del 40% in test utente; sincronizzazione efficiente con batch delta.
-- Caratteristiche tecniche: offline-first (SQLite), sync layer custom, WebSocket per aggiornamenti live, analisi e reportistica grafica.
-- UX: dashboard con grafici animati, micro-interazioni sulle transazioni e feedback tramite Lottie.
-
-Codice e componenti: vedi `src/components` e `assets/` per esempi di implementazione e animazioni.
+Core strengths:
+- Pixel-perfect responsive layouts with modern CSS (Flexbox, Grid)
+- Interactive UI built with vanilla JavaScript and progressive enhancement
+- UX-first approach: accessibility, performance, and clarity
+- Practical tooling: Git, npm, build scripts, and simple deployment flows
 
 ---
 
-### Reminder Max — promemoria intelligenti
-Breve: sistema di promemoria avanzati con supporto per regole ricorrenti, geofencing e azioni rapide.
+## Skills & Technologies
 
-- Caratteristiche tecniche: background tasks ottimizzati, notifica intelligente, integrazione con servizi cloud per sincronizzazione opzionale.
-- Risultati: riduzione dei falsi positivi nelle notifiche e miglioramento della deliverability su background.
+Languages
+- HTML5 — semantic markup, accessibility best practices
+- CSS3 — modern layout (Grid/Flexbox), transitions, animations, responsive patterns
+- JavaScript (ES6+) — DOM manipulation, event handling, modular code, async flows
+
+Frontend Practices
+- Responsive Design & Mobile-first Development
+- CSS Animations & Microinteractions
+- Form validation and client-side state handling
+- Local persistence (localStorage) and graceful degradation
+
+Tools & Workflow
+- Git & GitHub for version control
+- npm / basic build tooling
+- Browser devtools, Lighthouse for performance & accessibility audits
+
+Design & Prototyping
+- Wireframing, layout composition, iterative UI improvements
+- Focus on clarity, accessibility (WCAG-minded), and user flows
 
 ---
 
-## 📐 Esempi di ruoli svolti
-- Lead developer su progetti mobile cross-platform.
-- Progettazione API e integrazione con terze parti (pagamenti, notifiche, storage).
-- Migrazione dati e refactor per performance e scalabilità.
+## Featured Projects
+
+Below are two highlighted projects available in this repository. Each project includes a short overview, the main features, and notes on how to run or demo them locally.
+
+### Equi Budget
+A clean, intuitive budgeting tool focused on fairness and clarity.
+
+What it does
+- Track incomes and expenses in a simple ledger-style interface
+- Split shared expenses fairly across participants
+- Visualize spending categories (pie/bar charts) and recent trends
+- Export and import simple JSON backups
+
+Key features
+- Fair-split algorithm for shared costs (Equitable distribution per participant)
+- Category breakdown and recent transactions list
+- Mobile-first layout with smooth CSS microinteractions
+
+Tech & approach
+- Built with semantic HTML, modular CSS, and vanilla JavaScript
+- Data persisted locally (localStorage) for instant, offline-friendly use
+- Designed for easy extension to backend sync or CSV/JSON export
+
+How to run locally
+1. Clone the repo
+2. Open `index.html` in a browser (no build step required)
+3. Optionally run a static server to enable relative file requests:
+   - `npx http-server .` and open `http://localhost:8080`
+
+Suggested improvements (ideas for future versions)
+- Add user accounts and cloud sync
+- Integrate charting library for more advanced visuals
+- Add multi-currency and recurring payments support
 
 ---
 
-## 🎨 Presentazione visiva & demo
-Ho preparato anche una versione statica del portfolio in `index.html` con grafica moderna e micro-animazioni; è pensata per demo rapide o hosting come GitHub Pages.
+### Reminder Max
+A lightweight, reliable reminders and tasks app focused on recurring reminders and notification clarity.
 
-Apri `index.html` localmente o chiedimi di pubblicarla su GitHub Pages.
+What it does
+- Create one-off and recurring reminders with title, notes, and due date/time
+- Snooze and complete actions with clear visual feedback
+- Filter and search reminders by date, priority and tags
+
+Key features
+- Recurrence patterns (daily, weekly, monthly) and snooze functionality
+- Clear, keyboard-friendly UI for rapid entry and management
+- Mobile-friendly layout and accessible controls
+
+Tech & approach
+- Implemented with HTML, CSS and JavaScript for maximum portability
+- Client-side storage for quick persistence and offline usage
+- Emphasis on UX details: focus states, clear affordances, and confirmation flows
+
+How to run locally
+- Same as Equi Budget: open `index.html` or run a simple static server
+
+Suggested improvements
+- Desktop or mobile notifications (Service Workers + Push)
+- Sync across devices and calendar integration (iCal / Google Calendar)
+- Reminders grouped by project and enriched with attachments
 
 ---
 
-## 📫 Contatti & risorse
-- Email: giuliuomichelotti@outlook.it
+## Visuals & Assets
+
+To present polished visuals and animated previews, include:
+- GIF or MP4 demos inside `assets/` (e.g., `assets/equi-budget-demo.gif`, `assets/reminder-max-demo.gif`)
+- High-resolution screenshots in `assets/screenshots/` for the README showcase
+
+Example markdown to embed a demo once assets are added:
+![Equi Budget demo](assets/equi-budget-demo.gif)
+
+---
+
+## Design & Animation Philosophy
+
+I use subtle animations and microinteractions to increase clarity, not distract:
+- Animated affordances (hover states, pressed states)
+- Smooth transitions when content reflows
+- Animations that communicate state (saving, error, success)
+
+The goal is delightful, but purposeful, motion.
+
+---
+
+## How to explore this repo
+
+- index.html — entry/demo page to preview the projects
+- styles.css — global styling and responsive rules
+- scripts.js / App.js — interactive behavior and app logic
+- assets/ — place screenshots and demos here for the README to reference
+
+Run locally:
+- Open `index.html` directly, or
+- Serve the repository with a static server: `npx http-server .`
+
+---
+
+## Contact & Next steps
+
+I'm always open to interesting projects, collaboration or roles where I can both design and implement delightful front-end experiences.
+
 - GitHub: https://github.com/giuliomichelotti
-- Resume (PDF): se vuoi, posso aggiungerlo e linkarlo qui.
+- Email: (add your preferred contact email here)
+- LinkedIn / Portfolio: (add links here)
 
 ---
 
-## 🔧 Vuoi che faccia altro?
-- Pubblicare `index.html` su GitHub Pages
-- Aggiungere una sezione portfolio con case study dettagliati (metriche, tecnologie, codice)
-- Realizzare GIF/Lottie per le sezioni chiave del `README`
+## License
 
-Dimmi cosa vuoi e procedo.
-
-## 🎨 Design & Animazioni
-Metto cura nelle transizioni e nelle micro-interazioni: uso Lottie per animazioni vettoriali, SVG per elementi decorativi e Reanimated/Moti per movimenti reattivi. Queste scelte rendono le app piacevoli e performanti.
+This portfolio content and associated sample code are available under the MIT License. Replace or adapt license text as you prefer.
 
 ---
 
-## 📫 Contatti
-- Email: giuliuomichelotti@outlook.it
-- GitHub: https://github.com/giuliomichelotti
+If you'd like, I can:
+- Replace the existing README.md in the repository with this version (open a pull request),
+- Generate optimized animated GIF previews for the projects and place them in `assets/`,
+- Or tailor content to include additional languages, frameworks, or links you'd like highlighted.
 
-Se preferisci che il profilo punti direttamente a una versione statica (index.html) o che pubblichi il sito su GitHub Pages, posso farlo per te.
-
----
-
-## 🔎 Visualizzare il sito statico
-Ho anche preparato una versione statica separata (`index.html`, `styles.css`, `scripts.js`) per chi preferisce una pagina stand-alone. Puoi aprirla localmente o usarla come demo.
-
-Apri `index.html` oppure visita la GitHub Pages (se configurata).
-
----
-
-<p align="center">
-  <strong>Made with ❤️ in Italy 🇮🇹</strong><br>
-  <sub>© 2025 Giulio Michelotti.</sub>
-</p>
-# <p align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Ciao,+sono+Giulio+Michelotti;Full+Stack+Developer;Mobile+App+Creator" alt="Typing SVG" /></p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0078D4&height=150&section=header&text=Benvenuti!&fontSize=40&animation=fadeIn" width="100%" />
-</p>
-
-### 💫 Su di me
-Appassionato di tecnologia e design, sviluppo soluzioni digitali con attenzione all'esperienza utente e alle animazioni. Lavoro principalmente su applicazioni mobile cross-platform e progetti full‑stack.
-
----
-
-**Animazioni Artistiche**
-- **Descrizione:** Creo animazioni estetiche e funzionali usando Lottie, SVG morphing, particelle e transizioni cinematiche per migliorare l'engagement.
-- **Esempi:** micro-interazioni (bottoni, feedback), transizioni di schermata, infografiche animate e confetti per eventi "goal reached".
-- **Come vederle nel progetto:** avviare l'app con `npm install` e `expo start` (o `yarn && expo start`) per visualizzare le Lottie e le animazioni integrate nelle componenti sotto `src/components`.
-- **Risorse:** gli asset Lottie si trovano tipicamente in `assets/` e possono essere visualizzati con il player Lottie nella app o con strumenti online come LottieFiles.
-
----
-
-### 🚀 Cosa Sviluppo
-- **Mobile Apps:** React Native + Expo con attenzione a performance e animazioni complesse.
-- **Full Stack Development:** API Node.js/Express, database relazionali/noSQL e integrazione cloud.
-- **UI/UX & Animations:** Reanimated, Moti, Lottie per animazioni fluide e reattive.
-
----
-
-### 🛠 Tech Stack
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=react,expo,nodejs,express,postgres,mongodb,sqlite,tailwind,figma,git,githubactions" />
-</p>
-
----
-
-### 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=giuliomichelotti&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Giulio's GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=giuliomichelotti&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs" />
-</p>
-
----
-
-### 💰 Progetti in Primo Piano
-#### **EquiBudget — Gestione Finanziaria Personale**
-Un'app pensata per aiutare gli utenti a bilanciare entrate e uscite con strumenti visuali e regole intelligenti.
-- **Funzionalità principali:** creazione e monitoraggio di budget per categoria, visualizzazioni a grafico, notifiche sui limiti, import/export CSV e report periodici.
-- **Design e Animazioni:** interfaccia moderna con glassmorphism, micro-interazioni su transazioni, animazioni Lottie per feedback e grafici animati per trend finanziari.
-- **Tech:** React Native, Expo, SQLite per storage locale, Reanimated e Lottie per animazioni.
-- **Dove vederlo:** componenti rilevanti in `src/components` e risorse in `assets/`.
-
-#### **Reminder Mac — Promemoria per macOS**
-Un'app nativa orientata agli utenti Mac che richiedono promemoria veloci e integrazione con il sistema.
-- **Funzionalità principali:** menubar app, notifiche native, sincronizzazione (iCloud opzionale), supporto per azioni rapide e scorciatoie da tastiera.
-- **Focus macOS:** interfaccia coerente con Human Interface Guidelines, centro notifiche, supporto dark mode e accessibility.
-- **Installazione:** disponibile come build macOS (DMG/PKG) o tramite Homebrew Cask nei prossimi rilasci.
-
----
-
-### 📫 Contattami
-<p align="left">
-  <a href="mailto:giuliuomichelotti@outlook.it">
-    <img src="https://img.shields.io/badge/Email-giuliuomichelotti%40outlook.it-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="Email">
-  </a>
-  <a href="https://github.com/giuliomichelotti">
-    <img src="https://img.shields.io/badge/GitHub-giuliomichelotti-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-  </a>
-</p>
-
----
-
-<p align="center">
-  <strong>Made with ❤️ in Italy 🇮🇹</strong><br>
-  <sub>© 2025 Giulio Michelotti.</sub>
-</p>
+Tell me which of those you'd like me to do next and I will proceed.
+````
