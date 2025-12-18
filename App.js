@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { SafeAreaView, View, Text, StyleSheet, TouchableOpacity } from 'react-native';
+import { View as MotiView, Text as MotiText } from 'moti';
 import AnimatedFAB from './src/components/AnimatedFAB';
 import LottieOnboarding from './src/components/LottieOnboarding';
 import AnimatedProgressBar from './src/components/AnimatedProgressBar';
@@ -24,13 +25,30 @@ export default function App() {
   return (
     <SafeAreaView style={styles.safe}>
       <View style={styles.container}>
-        <Text style={styles.title}>EquiBudget — Demo Animazioni</Text>
+        <MotiText
+          style={styles.title}
+          from={{ opacity: 0, translateY: -20 }}
+          animate={{ opacity: 1, translateY: 0 }}
+          transition={{ type: 'timing', duration: 800 }}
+        >
+          EquiBudget — Demo Animazioni
+        </MotiText>
 
-        <View style={styles.lottie}>
+        <MotiView
+          style={styles.lottie}
+          from={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ type: 'timing', duration: 800, delay: 200 }}
+        >
           <LottieOnboarding source={lottieFinance} />
-        </View>
+        </MotiView>
 
-        <View style={styles.progressRow}>
+        <MotiView
+          style={styles.progressRow}
+          from={{ opacity: 0, translateX: -30 }}
+          animate={{ opacity: 1, translateX: 0 }}
+          transition={{ type: 'timing', duration: 800, delay: 400 }}
+        >
           <AnimatedProgressBar size={140} progress={progress} />
           <View style={styles.progressInfo}>
             <Text style={styles.progressText}>{Math.round(progress * 100)}%</Text>
@@ -38,9 +56,16 @@ export default function App() {
               <Text style={styles.btnText}>Aumenta</Text>
             </TouchableOpacity>
           </View>
-        </View>
+        </MotiView>
 
-        <Text style={styles.hint}>Premi il pulsante centrale + per aggiungere una transazione (demo FAB)</Text>
+        <MotiText
+          style={styles.hint}
+          from={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ type: 'timing', duration: 800, delay: 600 }}
+        >
+          Premi il pulsante centrale + per aggiungere una transazione (demo FAB)
+        </MotiText>
       </View>
 
       <AnimatedFAB
