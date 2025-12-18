@@ -17,7 +17,7 @@ Come un compositore orchestra le note per creare armonia, Equibudget orchestra l
 
 ### 💫 L'Essenza
 
-Equibudget rappresenta l'intersezione tra tecnologia e umanità, dove ogni transazione diventa un pennellata sulla tela della propria vita finanziaria. È un invito a guardare oltre i numeri, a scoprire storie, intenzioni e valori che si celano dietro ogni scelta economica.
+Equibudget rappresenta l'intersezione tra tecnologia e umanità, dove ogni transazione diventa una pennellata sulla tela della propria vita finanziaria. È un invito a guardare oltre i numeri, a scoprire storie, intenzioni e valori che si celano dietro ogni scelta economica.
 
 ---
 
