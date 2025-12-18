@@ -101,6 +101,8 @@ How to run locally
 3. Optionally run a static server to enable relative file requests:
    - `npx http-server .` and open `http://localhost:8080`
 
+![Equi Budget demo](assets/equi-budget-demo.gif)
+
 Suggested improvements (ideas for future versions)
 - Add user accounts and cloud sync
 - Integrate charting library for more advanced visuals
@@ -128,6 +130,8 @@ Tech & approach
 
 How to run locally
 - Same as Equi Budget: open `index.html` or run a simple static server
+
+![Reminder Max demo](assets/reminder-max-demo.gif)
 
 Suggested improvements
 - Desktop or mobile notifications (Service Workers + Push)
