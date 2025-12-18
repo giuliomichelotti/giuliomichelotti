@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { SafeAreaView, View, Text, StyleSheet, TouchableOpacity } from 'react-native';
-import { View as MotiView, Text as MotiText } from 'moti';
+import { MotiView, MotiText } from 'moti';
 import AnimatedFAB from './src/components/AnimatedFAB';
 import LottieOnboarding from './src/components/LottieOnboarding';
 import AnimatedProgressBar from './src/components/AnimatedProgressBar';
