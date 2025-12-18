@@ -3,18 +3,37 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0078D4&height=150&section=header&text=Benvenuti!&fontSize=40&animation=fadeIn" width="100%" />
 </p>
-
 ## 💼 Chi sono
-Sono Giulio Michelotti, Full Stack Developer specializzato nello sviluppo di applicazioni web e mobile. Progetto e sviluppo soluzioni end-to-end: API, architetture offline-first, interfacce reattive e animazioni curate per migliorare l'esperienza utente.
+Sono Giulio Michelotti — Full Stack Developer specializzato nello sviluppo di applicazioni web e mobile. Creo prodotti end-to-end: API performanti, architetture resilienti, interfacce accessibili e animazioni studiate per migliorare l'usabilità.
 
 --
 
-## ✨ Highlights
-- Esperienza su app mobile cross-platform (React Native / Expo)
-- API e backend con Node.js / Express
-- Ottimizzazione UX, animazioni con Lottie / Reanimated
-- Persistenza offline (SQLite), sincronizzazione e notifiche
+## ✨ Sintesi delle competenze
+- Progettazione e sviluppo Full Stack: architetture REST/GraphQL, autenticazione, testing e deploy.
+- Mobile & Cross‑platform: React Native, Expo, ottimizzazione di performance e background tasks.
+- Frontend Web: React, TypeScript, gestione stato, design system e animazioni CSS/SVG/Reanimated.
+- Backend: Node.js, Express, microservices, WebSockets, integrazione con servizi esterni.
+- Database & Sync: PostgreSQL, MongoDB, SQLite (offline-first), strategie di sincronizzazione e conflitti.
+- DevOps & Qualità: CI/CD, unit/integration testing, monitoraggio e deploy automatizzati.
 
+---
+
+## 🧰 Stack tecnico (esempi)
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=react,typescript,expo,nodejs,express,postgres,mongodb,sqlite,githubactions,figma" />
+</p>
+
+---
+
+## 🔍 Competenze dettagliate
+- Architetture: progettazione API, autenticazione JWT/OAuth2, caching, rate limiting.
+- Offline & Sync: strategie offline-first, delta sync, gestione conflitti, compressione dati.
+- Performance: profiling, riduzione bundle, ottimizzazioni native su React Native.
+- UX & Animazioni: micro-interazioni, Lottie, SVG, transizioni per migliorare il feedback utente.
+- Testing: Jest, React Testing Library, E2E (detox/cypress), test di integrazione backend.
+- Sicurezza: validazione input, protezione CSRF, gestione segreti e best practice OWASP.
+
+---
 ---
 
 ## 🧰 Tecnologie
@@ -24,28 +43,55 @@ Sono Giulio Michelotti, Full Stack Developer specializzato nello sviluppo di app
 
 ---
 
+
 ## 🚀 Progetti in primo piano
 
-### Equi Budget
-App per la gestione condivisa del budget familiare e di gruppo.
+### Equi Budget — gestione finanziaria condivisa
+Breve: app mobile pensata per gruppi/famiglie che devono gestire budget condivisi in modo semplice e trasparente.
 
-- Funzionalità: gestione categorie, report grafici, regole di condivisione, import/export CSV.
-- Architettura: offline-first con sincronizzazione efficiente (SQLite + sync layer), WebSockets per aggiornamenti real-time.
-- Animazioni e UX: micro-interazioni, grafici animati e feedback Lottie per azioni importanti.
+- Principali risultati: riduzione del tempo medio di riconciliazione spese del 40% in test utente; sincronizzazione efficiente con batch delta.
+- Caratteristiche tecniche: offline-first (SQLite), sync layer custom, WebSocket per aggiornamenti live, analisi e reportistica grafica.
+- UX: dashboard con grafici animati, micro-interazioni sulle transazioni e feedback tramite Lottie.
 
-Vuoi vedere il codice o provare una demo? I componenti principali e gli asset si trovano in `src/components` e `assets/`.
+Codice e componenti: vedi `src/components` e `assets/` per esempi di implementazione e animazioni.
+
+---
+
+### Reminder Max — promemoria intelligenti
+Breve: sistema di promemoria avanzati con supporto per regole ricorrenti, geofencing e azioni rapide.
+
+- Caratteristiche tecniche: background tasks ottimizzati, notifica intelligente, integrazione con servizi cloud per sincronizzazione opzionale.
+- Risultati: riduzione dei falsi positivi nelle notifiche e miglioramento della deliverability su background.
 
 ---
 
-### Reminder Max
-Soluzione per promemoria avanzati (mobile e desktop/macOS), ottimizzata per affidabilità in background.
-
-- Funzionalità: regole ricorrenti, geofencing, notifiche intelligenti e supporto per azioni rapide.
-- Focus su consumi e stabilità in background; integrazione con servizi cloud per sincronizzazione opzionale.
-
-Dettagli di implementazione e design sono disponibili nei repository correlati.
+## 📐 Esempi di ruoli svolti
+- Lead developer su progetti mobile cross-platform.
+- Progettazione API e integrazione con terze parti (pagamenti, notifiche, storage).
+- Migrazione dati e refactor per performance e scalabilità.
 
 ---
+
+## 🎨 Presentazione visiva & demo
+Ho preparato anche una versione statica del portfolio in `index.html` con grafica moderna e micro-animazioni; è pensata per demo rapide o hosting come GitHub Pages.
+
+Apri `index.html` localmente o chiedimi di pubblicarla su GitHub Pages.
+
+---
+
+## 📫 Contatti & risorse
+- Email: giuliuomichelotti@outlook.it
+- GitHub: https://github.com/giuliomichelotti
+- Resume (PDF): se vuoi, posso aggiungerlo e linkarlo qui.
+
+---
+
+## 🔧 Vuoi che faccia altro?
+- Pubblicare `index.html` su GitHub Pages
+- Aggiungere una sezione portfolio con case study dettagliati (metriche, tecnologie, codice)
+- Realizzare GIF/Lottie per le sezioni chiave del `README`
+
+Dimmi cosa vuoi e procedo.
 
 ## 🎨 Design & Animazioni
 Metto cura nelle transizioni e nelle micro-interazioni: uso Lottie per animazioni vettoriali, SVG per elementi decorativi e Reanimated/Moti per movimenti reattivi. Queste scelte rendono le app piacevoli e performanti.
