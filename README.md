@@ -71,7 +71,7 @@ const giulio = {
 <table>
 <tr>
 <td width="45%">
-<img src="assets/equi-budget-demo.gif" alt="Equi Budget Demo" width="100%"/>
+<img src="assets/equi-budget-screenshot.png" alt="Equi Budget Screenshot" width="100%"/>
 </td>
 <td width="55%">
 
@@ -159,7 +159,7 @@ Animations:  Lottie + CSS Keyframes
 
 </td>
 <td width="45%">
-<img src="assets/reminder-max-demo.gif" alt="Reminder Max Demo" width="100%"/>
+<img src="assets/reminder-max-screenshot.png" alt="Reminder Max Screenshot" width="100%"/>
 </td>
 </tr>
 </table>
