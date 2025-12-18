@@ -170,10 +170,13 @@ The goal is delightful, but purposeful, motion.
 - styles.css — global styling and responsive rules
 - scripts.js / App.js — interactive behavior and app logic
 - assets/ — place screenshots and demos here for the README to reference
+- docs/index.html — **HTML-only** animations and rhythm samples (ready for GitHub Pages)
 
 Run locally:
-- Open `index.html` directly, or
+- Open `index.html` or `docs/index.html` directly, or
 - Serve the repository with a static server: `npx http-server .`
+
+> 💡 To publish the HTML-only animations so they are visible as live pages from your GitHub account, enable **GitHub Pages** and set the source to the `docs/` folder on the `main` branch (Settings → Pages). Once published you can link the live page in your profile and it will show the HTML/CSS animations exactly as designed.
 
 ---
 
