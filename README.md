@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- ANIMATED HEADER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Giulio%20Michelotti&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full%20Stack%20Developer%20%7C%20Product%20Designer%20%7C%20UX%20Engineer&descAlignY=52&descSize=18"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Giulio%20Michelotti&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full%20Stack%20Developer%20%7C%20Product%20Designer%20%7C%20UX%20Design&descAlignY=52&descSize=18"/>
 
 <!-- TYPING SVG -->
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6EE7B7&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=Crafting+seamless+digital+experiences+%F0%9F%9A%80;Building+products+that+solve+real+problems+%F0%9F%92%A1;Code+%2B+Design+%3D+Magic+%E2%9C%A8" alt="Typing SVG" /></a>
@@ -70,10 +70,10 @@ const giulio = {
 
 <table>
 <tr>
-<td width="45%">
-<img src="assets/equi-budget-screenshot.png" alt="Equi Budget Screenshot" width="100%"/>
+<td width="20%" align="center">
+<img src="assets/equi-budget-icon.png" alt="Equi Budget Icon" width="120"/>
 </td>
-<td width="55%">
+<td width="80%">
 
 #### 🎯 Il Problema
 Gestire le spese condivise è un incubo: chi ha pagato cosa, chi deve a chi, quanto resta del budget. Fogli Excel confusi, note sul telefono, discussioni infinite.
@@ -131,9 +131,13 @@ Animations:  Reanimated 2 + Moti
 
 ### ⏰ Reminder Max — *"Mai Più un Promemoria Dimenticato"*
 
+<div align="center">
+<img src="assets/reminder-max-icon.png" alt="Reminder Max Icon" width="120"/>
+</div>
+
 <table>
 <tr>
-<td width="55%">
+<td width="100%">
 
 #### �� Il Problema
 Le app di reminder esistenti sono o troppo semplici (mancano le ricorrenze) o troppo complesse (interfacce confuse, troppe opzioni). Serviva qualcosa nel mezzo perfetto.
@@ -158,11 +162,12 @@ Animations:  Lottie + CSS Keyframes
 - **Zero Battery Drain** — Ottimizzato per consumi minimi
 
 </td>
-<td width="45%">
-<img src="assets/reminder-max-screenshot.png" alt="Reminder Max Screenshot" width="100%"/>
-</td>
 </tr>
 </table>
+
+<div align="center">
+<img src="assets/reminder-max-icon.png" alt="Reminder Max Icon" width="120"/>
+</div>
 
 <details>
 <summary><b>📐 Architettura Tecnica di Reminder Max</b></summary>
