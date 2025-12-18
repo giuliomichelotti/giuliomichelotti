@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Giulio Michelotti — Full Stack Developer</title>
+  <link href="styles.css" rel="stylesheet" />
+  <meta name="description" content="Portfolio di Giulio Michelotti — sviluppo web e app. Progetti: Equi Budget, Reminder Max." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container hero">
+      <div class="intro">
+        <h1 class="name">Giulio Michelotti</h1>
+        <p class="tag">Full Stack Developer — Web & Mobile</p>
+        <p class="lead">Progetto ed implemento applicazioni moderne e responsive. Lavori notevoli: <strong>Equi Budget</strong> e <strong>Reminder Max</strong>.</p>
+        <a class="btn" href="#projects">Scopri i progetti</a>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <svg class="device" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="g1" x1="0" x2="1">
+              <stop offset="0" stop-color="#7b61ff" />
+              <stop offset="1" stop-color="#2ec4b6" />
+            </linearGradient>
+          </defs>
+          <rect x="10" y="10" width="180" height="180" rx="20" fill="url(#g1)" opacity="0.18" />
+          <circle cx="60" cy="70" r="18" fill="#fff" opacity="0.9" />
+          <rect x="95" y="50" width="80" height="25" rx="6" fill="#fff" opacity="0.95" />
+          <rect x="30" y="115" width="140" height="50" rx="8" fill="#fff" opacity="0.95" />
+        </svg>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="container section reveal">
+      <h2>Chi sono</h2>
+      <p>Sono uno sviluppatore full stack con esperienza nello sviluppo di applicazioni web e mobile, dall'architettura backend RESTful alle interfacce native e ibride. Progetto UX semplici, performanti e accessibili.</p>
+      <ul class="skills">
+        <li>JavaScript / TypeScript</li>
+        <li>React / React Native</li>
+        <li>Node.js / Express</li>
+        <li>Database SQL & NoSQL</li>
+        <li>CI/CD, testing, deploy</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="container section reveal">
+      <h2>Progetti selezionati</h2>
+      <div class="cards">
+        <article class="card">
+          <div class="card-media">
+            <svg viewBox="0 0 100 60"><rect width="100" height="60" rx="6" fill="#7b61ff" opacity="0.12"/></svg>
+          </div>
+          <div class="card-body">
+            <h3>Equi Budget</h3>
+            <p>App per la gestione condivisa del budget: sincronizzazione real-time, report grafici e regole di condivisione avanzate. Architettura offline-first con sincronizzazione efficiente.</p>
+            <p class="muted">Tecnologie: React Native, Node.js, WebSockets, SQLite</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-media">
+            <svg viewBox="0 0 100 60"><rect width="100" height="60" rx="6" fill="#2ec4b6" opacity="0.12"/></svg>
+          </div>
+          <div class="card-body">
+            <h3>Reminder Max</h3>
+            <p>Reminder avanzati con regole ricorrenti, geofencing e notifiche intelligenti. Ottimizzata per consumi bassi e affidabilità su background.</p>
+            <p class="muted">Tecnologie: React Native, Firebase, Background Tasks</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="container section reveal">
+      <h2>Contatti</h2>
+      <p>Vuoi collaborare o vedere altro codice? Scrivimi: <a href="mailto:giulio@example.com">giulio@example.com</a></p>
+      <p class="muted">Link al profilo GitHub e al codice sorgente disponibile nei repository pubblici.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© Giulio Michelotti — Full Stack Developer</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js" defer></script>
+</body>
+</html>
