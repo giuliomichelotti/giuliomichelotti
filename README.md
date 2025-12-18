@@ -66,14 +66,6 @@ const giulio = {
 
 ---
 
-## 🏆 Progetti Flagship
-
-<div align="center">
-<img src="assets/hero-demo.gif" alt="Hero Animation" width="90%"/>
-</div>
-
----
-
 ### 💰 Equi Budget — *"La Finanza Personale, Semplificata"*
 
 <table>
@@ -232,24 +224,13 @@ Animations:  Lottie + CSS Keyframes
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=giuliomichelotti&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6EE7B7&icon_color=60A5FA&text_color=FFFFFF" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=giuliomichelotti&theme=tokyonight&hide_border=true&background=0D1117&stroke=6EE7B7&ring=60A5FA&fire=C084FC&currStreakLabel=6EE7B7" />
-
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=giuliomichelotti&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6EE7B7&text_color=FFFFFF" />
+<img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=giuliomichelotti&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6EE7B7&text_color=FFFFFF" />
 
 </div>
 
 ---
 
-## 🐍 Contribution Graph
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/giuliomichelotti/giuliomichelotti/output/snake.svg" alt="Snake animation" />
-</div>
-
----
-
-## 📫 Let's Connect
+##  Let's Connect
 
 <div align="center">
 
